@@ -8,6 +8,6 @@
 # Result:
 # Pay: 96.25
 
-hours = float(input('How many hours you work?\n'))
-rate = float(input('Enter your rate:\n'))
-print(format('Your salary is going to be: ', hours*rate, ".2f"))
+hours = float(input("How many hours you work?\n"))
+rate = float(input("Enter your rate:\n"))
+print(format("Your salary is going to be: ", hours * rate, ".2f"))
