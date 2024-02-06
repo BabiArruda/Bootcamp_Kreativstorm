@@ -1,17 +1,18 @@
 try:
     text = {}
     temp_list = []
-    with open(r'sender.txt', 'r') as file:
+    with open(r"week_three/sender.txt", "r") as file:
         for line in file:
-            email = line.replace('Sender: ', '')
+            email = line.replace("Sender: ", "").rstrip("\n")
             temp_list.append(email)
+            if not email in text:
+                text[email] = 1
+            else:
+                text[email] += 1
 
-        for i in range(len(temp_list)):
-        x = text_read.count(email)
-        print(email, temp, end='')
-
+    print(text)
 
 
 except:
-    print('File dont exists')
+    print("File dont exists")
     quit()
