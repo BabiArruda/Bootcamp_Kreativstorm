@@ -1,0 +1,1 @@
+#1. Create a Car class with attributes make, model, and year. Implement a method display_info that prints information about the car, such as "Make: Toyota, Model: Camry, Year: 2022."

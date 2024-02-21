@@ -1,0 +1,1 @@
+#1. Create a decorator @validate_input that checks if the arguments passed to a function are all integers. If any argument is not an integer, it should raise a ValueError. Decorate a function with this decorator and call it
